@@ -1,3 +1,4 @@
-discord.py
+discord.py[voice]
 yt-dlp
 PyNaCl
+cffi
