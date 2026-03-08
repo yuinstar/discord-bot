@@ -7,7 +7,8 @@ from collections import deque
 # ============================================================
 #  설정
 # ============================================================
-TOKEN = "MTQ4MDExNDk5MzAzNzg0MDQ2NQ.GC6biF.RsIKx47S_1yB9CbeZlpoUcUkLxb4S6T7yjmN88"
+import os
+TOKEN = os.environ.get("TOKEN")
 # Discord Developer Portal에서 복사한 토큰
 
 intents = discord.Intents.default()
