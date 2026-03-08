@@ -1,5 +1,0 @@
-[phases.setup]
-nixPkgs = ["ffmpeg", "libsodium", "nodePackages.nodejs"]
-
-[phases.install]
-cmds = ["pip install -r requirements.txt"]
