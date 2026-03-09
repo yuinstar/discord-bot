@@ -3,3 +3,4 @@ yt-dlp
 PyNaCl
 cffi
 edge-tts
+anthropic
