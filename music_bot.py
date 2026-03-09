@@ -13,7 +13,7 @@ from collections import deque
 # ============================================================
 TOKEN = os.environ.get("TOKEN")                          # Discord 봇 토큰
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")  # Anthropic API 키
-CLAUDE_CHANNEL_NAME = "claude"  # Claude가 자동으로 대화할 채널 이름 (원하는 채널명으로 변경 가능)
+CLAUDE_CHANNEL_NAME = "에이메스"  # Claude가 자동으로 대화할 채널 이름 (원하는 채널명으로 변경 가능)
 
 intents = discord.Intents.default()
 intents.message_content = True
